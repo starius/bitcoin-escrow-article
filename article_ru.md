@@ -247,10 +247,9 @@ bitcoin-qt и Electrum). Решил поискать веб-решения и п
 Приветствуются предложения по улучшению алгоритма и ПО,
 автоматизирующее алгоритм в большей степени.
 
+### Ссылки
 
-GitHub разработчика:
-[github.com/OutCast3k/coinbin](https://github.com/OutCast3k/coinbin)
+1. [GitHub](https://github.com/OutCast3k/coinbin)
+1. Адрес Bitcoin разработчика: 1CWHWkTWaq1K5hevimJia3cyinQsrgXUvg
+1. Адрес Bitcoin автора инструкции: 1CsfihQGy5kg3nnTJLzfmNDiPGqiQgdeMz
 
-Адрес Bitcoin разработчика: 1CWHWkTWaq1K5hevimJia3cyinQsrgXUvg
-
-Мой адрес Bitcoin: 1CsfihQGy5kg3nnTJLzfmNDiPGqiQgdeMz
