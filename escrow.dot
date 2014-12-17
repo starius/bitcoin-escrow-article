@@ -1,0 +1,40 @@
+digraph G {
+    ranksep=0.2;
+    rankdir=TB;
+
+    node [style=filled, shape=box3d,
+        width=2.3, height=0.6, fontname="Arial"];
+
+    subgraph cluster_inputs {
+        style = filled;
+        color = green;
+        alice_input [label="Кошелёк Алисы"];
+        bob_input [label="Кошелёк Боба"];
+    }
+
+    subgraph cluster_multisig {
+        style = filled;
+        color = red;
+        multisig_address [label="Адрес multisig 2/2 (залог)"];
+    }
+
+    subgraph cluster_outputs {
+        style = filled;
+        color = green;
+        alice_output [label="Кошелёк Алисы"];
+        bob_output [label="Кошелёк Боба"];
+    }
+
+    node[shape=none, width=0, height=0, label=""];
+    edge[dir=none];
+    alice_input -> dummy_input;
+    bob_input -> dummy_input;
+    edge[dir=forward];
+    dummy_input -> multisig_address [label="Транзакция 1"];
+    edge[dir=none];
+    multisig_address -> dummy_output [label="Транзакция 2"];
+    edge[dir=forward];
+    dummy_output -> alice_output;
+    dummy_output -> bob_output;
+}
+
