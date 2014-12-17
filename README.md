@@ -3,5 +3,7 @@ bitcoin-escrow-article
 
 Article about how to insure deals in bitcoin
 
-http://habrahabr.ru/post/245791/
+[English version](article_en.md)
+
+[Russian version](article_ru.md) + [habrahabr](http://habrahabr.ru/post/245791/)
 
